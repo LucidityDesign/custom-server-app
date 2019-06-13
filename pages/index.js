@@ -13,10 +13,5 @@ export default () => (
         <a>b</a>
       </Link>
     </li>
-    <li>
-      <Link href='/a' as='/b'>
-        <img src="_blabla_" alt="" />
-      </Link>
-    </li>
   </ul>
 )

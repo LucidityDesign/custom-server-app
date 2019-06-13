@@ -8,7 +8,7 @@ export default class a extends React.Component {
   render () {
     return (<div>
       <span>Hello world</span>
-      { false && <img src="__404__" alt="" /> }
+      { true && <img src="__404__" alt="" /> }
     </div>)
   }
 }

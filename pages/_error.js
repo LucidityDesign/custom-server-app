@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default class Error extends React.Component {
-    static getInitialProps ({ res, err }) {
+    static getInitialProps ({ res, err }, a, b, c) {
         const statusCode = (res) ? res.statusCode : ((err) ? err.statusCode : null)
 
         return { statusCode }
